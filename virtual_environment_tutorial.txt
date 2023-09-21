@@ -1,0 +1,30 @@
+Step 1: Install virtual environment
+pip install virtualenv
+
+
+Step 2: Create folder in virtual environment
+virtualenv folderName
+
+
+Step 3: Activate virtual environment
+To gain permission (for windows): set-executionpollicy remote signed
+folderName\scripts\activate
+
+
+To delete virtual environment
+del folderName
+
+
+To exit virtual environment
+deactivate
+
+
+To see the installed packages via pip
+pip freeze
+
+
+To install all the packages form a text file
+pip install -r fileName.txt
+
+
+NOTE: You can PowerShell for this (run as administrator)
